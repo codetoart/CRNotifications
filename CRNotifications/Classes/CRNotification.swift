@@ -18,14 +18,14 @@ internal class CRNotification: UIView {
     
 	private lazy var titleLabel: UILabel = {
 		let label = UILabel()
-		label.font = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.bold)
+		label.font = UIFont.systemFont(ofSize: 15, weight: UIFontWeightBold)
 		label.textColor = .white
 		return label
 	}()
 	
     private lazy var messageLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 13, weight: UIFont.Weight.semibold)
+        label.font = UIFont.systemFont(ofSize: 13, weight: UIFontWeightSemibold)
         label.textColor = .white
         label.numberOfLines = 2
         return label
